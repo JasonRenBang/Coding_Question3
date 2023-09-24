@@ -22,8 +22,8 @@ const { fetchRequest, fetchSuccess, fetchFailure } = categoriesSlice.actions
 
 function* fetchCategoriesSaga () {
   try {
-    //change the API_ENDPOINT to the right url
-    const response = yield call(axios.get, 'API_ENDPOINT')
+    //change the url to the right api address
+    const response = yield call(axios.get, 'url')
     yield put(fetchSuccess(response.data))
   } catch (error) {
     yield put(fetchFailure(error))
