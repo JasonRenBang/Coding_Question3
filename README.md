@@ -1,5 +1,13 @@
 To create a React app that fetches category data and allows users to select a category using a TreeSelect component, integrate Redux for state management, and use Redux Saga and a custom hook for asynchronous calls. Use the Ant Design library for the TreeSelect component. This app demonstrates fetching data using Redux Saga and a custom hook, managing state with Redux, and using the Ant Design TreeSelect component in a React application.
 
+Using the App：
+·Fetching Categories:
+Click on Button 1 to fetch categories using Redux Saga.
+Click on Button 2 to fetch categories using the custom hook.
+
+·Selecting a Category:
+Once categories are fetched, they will appear in the TreeSelect dropdown.
+Select a category to see its ID in an alert message.
 
 
 # Getting Started with Create React App
